@@ -95,6 +95,7 @@ class NewWindow(QWidget):
         self.con.commit()
         #con.close()
         ex.update()
+        self.close()
 
 
 if __name__ == '__main__':
